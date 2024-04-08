@@ -1,0 +1,21 @@
+﻿@page
+@using System.Diagnostics
+@model Razor_asp_08_04_2024.Pages.IndexModel
+@{
+    DateTime serverStartTime = Process.GetCurrentProcess().StartTime;
+     var user = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
+
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Страница Razor</title>
+    <h1> Первая страница</h1>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <h2>Time: @DateTime.Now.ToShortTimeString()</h2>
+    <h2>Server start time  @serverStartTime</h2>
+    <h2>Текущий пользователь @user</h2>
+</body>
+</html>
