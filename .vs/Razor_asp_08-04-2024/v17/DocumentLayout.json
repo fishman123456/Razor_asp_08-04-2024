@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{01AA1901-796B-4BDE-872D-49286C20E82F}|Razor_asp_08-04-2024\\Razor_asp_08-04-2024.csproj|solutionrelative:razor_asp_08-04-2024\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01AA1901-796B-4BDE-872D-49286C20E82F}|Razor_asp_08-04-2024\\Razor_asp_08-04-2024.csproj|d:\\github\\razor_asp_08-04-2024\\razor_asp_08-04-2024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01AA1901-796B-4BDE-872D-49286C20E82F}|Razor_asp_08-04-2024\\Razor_asp_08-04-2024.csproj|solutionrelative:razor_asp_08-04-2024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01AA1901-796B-4BDE-872D-49286C20E82F}|Razor_asp_08-04-2024\\Razor_asp_08-04-2024.csproj|d:\\github\\razor_asp_08-04-2024\\razor_asp_08-04-2024\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01AA1901-796B-4BDE-872D-49286C20E82F}|Razor_asp_08-04-2024\\Razor_asp_08-04-2024.csproj|solutionrelative:razor_asp_08-04-2024\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01AA1901-796B-4BDE-872D-49286C20E82F}|Razor_asp_08-04-2024\\Razor_asp_08-04-2024.csproj|d:\\github\\razor_asp_08-04-2024\\razor_asp_08-04-2024\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{01AA1901-796B-4BDE-872D-49286C20E82F}|Razor_asp_08-04-2024\\Razor_asp_08-04-2024.csproj|solutionrelative:razor_asp_08-04-2024\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01AA1901-796B-4BDE-872D-49286C20E82F}|Razor_asp_08-04-2024\\Razor_asp_08-04-2024.csproj|d:\\github\\razor_asp_08-04-2024\\razor_asp_08-04-2024\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01AA1901-796B-4BDE-872D-49286C20E82F}|Razor_asp_08-04-2024\\Razor_asp_08-04-2024.csproj|solutionrelative:razor_asp_08-04-2024\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01AA1901-796B-4BDE-872D-49286C20E82F}|Razor_asp_08-04-2024\\Razor_asp_08-04-2024.csproj|d:\\github\\razor_asp_08-04-2024\\razor_asp_08-04-2024\\pages\\info.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01AA1901-796B-4BDE-872D-49286C20E82F}|Razor_asp_08-04-2024\\Razor_asp_08-04-2024.csproj|solutionrelative:razor_asp_08-04-2024\\pages\\info.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01AA1901-796B-4BDE-872D-49286C20E82F}|Razor_asp_08-04-2024\\Razor_asp_08-04-2024.csproj|d:\\github\\razor_asp_08-04-2024\\razor_asp_08-04-2024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01AA1901-796B-4BDE-872D-49286C20E82F}|Razor_asp_08-04-2024\\Razor_asp_08-04-2024.csproj|solutionrelative:razor_asp_08-04-2024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,7 +74,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "info.cshtml",
+              "DocumentMoniker": "D:\\Github\\Razor_asp_08-04-2024\\Razor_asp_08-04-2024\\Pages\\info.cshtml",
+              "RelativeDocumentMoniker": "Razor_asp_08-04-2024\\Pages\\info.cshtml",
+              "ToolTip": "D:\\Github\\Razor_asp_08-04-2024\\Razor_asp_08-04-2024\\Pages\\info.cshtml",
+              "RelativeToolTip": "Razor_asp_08-04-2024\\Pages\\info.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-08T17:13:32.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Github\\Razor_asp_08-04-2024\\Razor_asp_08-04-2024\\Program.cs",
               "RelativeDocumentMoniker": "Razor_asp_08-04-2024\\Program.cs",
@@ -78,8 +95,7 @@
               "RelativeToolTip": "Razor_asp_08-04-2024\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T16:38:46.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T16:38:46.557Z"
             },
             {
               "$type": "Document",
@@ -96,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "D:\\Github\\Razor_asp_08-04-2024\\Razor_asp_08-04-2024\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Razor_asp_08-04-2024\\Pages\\Index.cshtml.cs",
@@ -115,7 +131,7 @@
               "RelativeDocumentMoniker": "Razor_asp_08-04-2024\\Pages\\Index.cshtml",
               "ToolTip": "D:\\Github\\Razor_asp_08-04-2024\\Razor_asp_08-04-2024\\Pages\\Index.cshtml",
               "RelativeToolTip": "Razor_asp_08-04-2024\\Pages\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAGAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-08T16:37:07.292Z",
               "EditorCaption": ""

@@ -1,10 +1,14 @@
 ﻿@page
 @using System.Diagnostics
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @model Razor_asp_08_04_2024.Pages.IndexModel
 @{
     DateTime serverStartTime = Process.GetCurrentProcess().StartTime;
-     var user = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
-
+    var user = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
+    int num = 255;
+    var timeN = DateTime.Now.ToString("t");
+    var timeHour = DateTime.Now.Hour;
+    Process[] processes = Process.GetProcesses();
 }
 <!DOCTYPE html>
 <html>
@@ -16,6 +20,46 @@
 <body>
     <h2>Time: @DateTime.Now.ToShortTimeString()</h2>
     <h2>Server start time  @serverStartTime</h2>
-    <h2>Текущий пользователь @user</h2>
+    @* <h2>Текущий пользователь @user</h2>*@
+    <a asp-page="info">переход на вторую страницу</a>
+    @if (num % 2 == 0)
+    {
+        <p> @num - четное</p>
+    }
+    else
+    {
+        <p>@num  - нечетное </p>
+    }
+
+    <h1>@timeN</h1>
+    <h1>@timeHour</h1>
+    @if (timeHour == 0)
+    {
+        <p> @timeHour - полночь</p>
+    }
+    else @if (timeHour >= 6 || timeHour < 12)
+    {
+        <p> @timeHour - утро</p>
+    }
+    else @if (timeHour >= 12 || timeHour <= 18)
+    {
+        <p> @timeHour - день</p>
+    }
+    else @if (timeHour >= 18 || timeHour <= 23)
+    {
+        <p> @timeHour - вечер</p>
+    }
+    else @if (timeHour >= 23 || timeHour <= 6)
+    {
+        <p> @timeHour - ночь</p>
+    }
+    
+    <ul>
+
+        @for(int i=0; i < processes.Length; i++) {
+            <li>@i -  @processes[i]</li>
+        }
+       
+    </ul>
 </body>
 </html>
