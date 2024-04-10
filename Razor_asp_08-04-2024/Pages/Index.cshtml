@@ -37,19 +37,19 @@
     {
         <p> @timeHour - полночь</p>
     }
-    else @if (timeHour >= 6 || timeHour < 12)
+    else @if (timeHour >= 6 && timeHour < 12)
     {
         <p> @timeHour - утро</p>
     }
-    else @if (timeHour >= 12 || timeHour <= 18)
+    else @if (timeHour >= 12 && timeHour <= 18)
     {
         <p> @timeHour - день</p>
     }
-    else @if (timeHour >= 18 || timeHour <= 23)
+    else @if (timeHour >= 18 && timeHour <= 23)
     {
         <p> @timeHour - вечер</p>
     }
-    else @if (timeHour >= 23 || timeHour <= 6)
+    else @if (timeHour >= 23 && timeHour <= 6)
     {
         <p> @timeHour - ночь</p>
     }
